@@ -17,3 +17,6 @@ def read_input_list_of_lists(data):
     for element in data.split("\n"):
         data_parsed.append([int(x) for x in element.split()])
     return data_parsed
+
+def read_input_singular_line(data):
+    return data.replace("\n", "")
